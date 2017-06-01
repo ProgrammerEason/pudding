@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="pudding">
+      <UniqueIdentifier>{fad12e9b-5a83-4be2-8a1d-913a7d5abbe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pudding\Engine">
+      <UniqueIdentifier>{df3db60e-eec3-4557-aad8-7b08998b431a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pudding\Node">
+      <UniqueIdentifier>{e351c8a6-374c-446e-9ae3-c8f7471fb184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pudding\Renderer">
+      <UniqueIdentifier>{1f4e81eb-f5f5-4187-b8c9-3aea256e4edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pudding\Renderer\OpenGL">
+      <UniqueIdentifier>{b70a2e62-6c6f-4996-8539-5e363c3edfa0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\pudding\Node\Node.cpp">
+      <Filter>pudding\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pudding\Engine\Engine.cpp">
+      <Filter>pudding\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pudding\main.cpp">
+      <Filter>pudding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pudding\Renderer\OpenGLRenderer.cpp">
+      <Filter>pudding\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pudding\Renderer\Renderer.cpp">
+      <Filter>pudding\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pudding\Renderer\RenderTypes.cpp">
+      <Filter>pudding\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pudding\Renderer\OpenGL\VAO.cpp">
+      <Filter>pudding\Renderer\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pudding\Renderer\OpenGL\VBO.cpp">
+      <Filter>pudding\Renderer\OpenGL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\pudding\Node\Node.h">
+      <Filter>pudding\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pudding\Engine\Engine.h">
+      <Filter>pudding\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pudding\Renderer\OpenGLRenderer.h">
+      <Filter>pudding\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pudding\Renderer\Renderer.h">
+      <Filter>pudding\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pudding\Renderer\RenderTypes.h">
+      <Filter>pudding\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pudding\Renderer\OpenGL\VAO.h">
+      <Filter>pudding\Renderer\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pudding\Renderer\OpenGL\VBO.h">
+      <Filter>pudding\Renderer\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pudding\Renderer\OpenGL\OpenGLMacros.h">
+      <Filter>pudding\Renderer\OpenGL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
